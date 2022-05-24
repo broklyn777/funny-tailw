@@ -4,16 +4,18 @@ import Image from 'next/image'
 import Header from '../components/Header'
 
 const Home: NextPage = () => {
-  return (
-    <div className="">
-      <Head>
-        <title>Funny-Tailw</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+return (
+    <>
+     
+   
   
-
       
-    </div>
+      <div className="relative mx-auto mt-28 h-[140vh] ">
+     <div>
+         <h1>Hem</h1>
+     </div>
+      </div>
+    </>
   )
 }
 
